@@ -31,6 +31,7 @@ addbtn.addEventListener("click", () => {
     let uservalue = userInput.value;
     newpara.innerText = uservalue;
     console.log(uservalue);
+    userInput.value = "";
 
     btn1.addEventListener("click", () => {
         console.log("removed");
